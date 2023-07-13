@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    padding: 5px;
+}
+.full{
+    display: flex;
+}
+.first{
+    /* border:1px solid rgb(72, 71, 71); */
+    border-radius: 10px;
+    width:290px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+}
+.home{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    font-size: 22px;
+    padding:6px;
+    background-color: rgb(37, 37, 37);
+    color:white;
+    /* color:black; */
+}
+.home i{
+    background-color: rgb(37, 37, 37); 
+}
+.search i{
+    background-color: rgb(37, 37, 37);
+}
+.search{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    font-size: 20px;
+    padding:6px;
+    background-color: rgb(37, 37, 37);
+    color: rgb(80, 79, 79);
+    /* color:black; */
+}
+.search i:hover{
+    color:white;
+}
+i{
+    border:none;
+}
+/* SECOND BOX  */
+.second{
+    border-radius: 10px;
+    width:290px;
+    margin-top:10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    height: 480px;
+    background-color: rgb(37, 37, 37);
+    color:lightgrey;
+}
+.library{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.library-left{
+    display: flex;
+    gap:10px;
+    font-size: 22px;
+    padding:6px;
+    background-color: rgb(37, 37, 37);
+    color: lightgrey;
+    margin-bottom: 10px
+}
+.library-left i{
+    background-color: rgb(37, 37, 37); 
+    /* color: white; */
+}
+.library-right{
+    background-color: rgb(37, 37, 37);
+}
+.library-right i{
+    background-color: rgb(37, 37, 37);
+}
+.light{
+    background-color: rgb(64, 64, 64);
+    border-radius:10px 10px 0 0;
+    height: 131px; 
+    margin-right: 4px;
+    margin-bottom: 30px;
+
+}
+.light p{
+    background-color:rgb(64, 64, 64);
+    border:none;
+}
+.bold{
+    background-color: rgba(99, 98, 98, 0.141);
+    font-weight: bold;
+}
+.btn{
+    margin-top:40px;
+    background-color: white;
+    color:black;
+    border-radius: 50px;
+    width:120px;
+    margin-bottom: 0;
+    border:none;
+    font-weight:bold ;
+}
+.btn:hover{
+    border:2px solid white;
+    background-color: black;
+    color: white;
+}
+.link{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    gap: 10px;
+    font-size: x-small;
+    font-weight: lighter;
+    text-decoration: none;
+    color: lightgrey;
+}
+.link a{
+    background-color: rgb(37, 37, 37);
+}
+.btn1{
+    background-color: rgb(37, 37, 37);
+    border-radius: 50px;
+    border:2px solid white;
+    color:white;
+    width: 90px;
+    margin-top:100px;
+}
+.btn1 i{
+    background-color: rgb(37, 37, 37); 
+}
+/* THIRD BOX  */
+.top{
+    background-color: rgb(33, 33, 33);
+    width:800px;
+    height:65px;
+    border-radius: 14px 14px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-left{
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:white;
+    font-size: larger;
+}
+.top-left i{
+    border-radius: 70px;
+    text-align: center;
+    color:rgb(69, 70, 71);  
+}
+.top-left i:hover{
+    color:white;
+}
+.top-right{
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:white;
+}
+.top-right p{
+    background-color: rgb(33, 33, 33);
+}
+.top-right p:hover{
+    background-color: white;
+    color:black;
+    border-radius: 60px;
+    font-weight: bold;
+    width:60px;
+    text-align: center;
+}
+.show{
+    background-color: white;
+    color:black;
+    border-radius: 60px;
+    font-weight: bold;
+    width:60px;
+    text-align: center;
+}
+.bottom{
+    background-color: rgb(37, 37, 37);
+    width:800px;
+    height: 600px;
+    display: flex;
+    gap:14px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgb(31, 31, 31);
+    width:180px;
+    height:270px;
+    border-radius: 8px;
+    padding: 3px;
+    border:none;
+    color:white;
+    position: relative;
+
+}
+.card img{
+    background-color: rgb(31, 31, 31);
+    width:95%;
+    height:150px;
+    border-radius:10px;
+    border: none;
+    
+}
+.card img:hover{
+    height: 160px;
+    background-color: white;
+}
+.icon{
+    position:absolute;
+    top:166px;
+    right:0;
+    border-radius: 60px;
+    text-align: center;
+    color:rgb(69, 70, 71);
+    
+
+}
+.icon:hover{
+    color: rgb(7, 167, 7);
+    font-size: 20px;
+    text-align: center;
+}
+.card pre{
+    background-color: rgb(31, 31, 31);
+    font-weight: bold;
+}
+.card p{
+    background-color: rgb(31, 31, 31);
+}
